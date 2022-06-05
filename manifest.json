@@ -1,0 +1,21 @@
+{
+    "name": "Better Open Kattis",
+    "description": "Adds visual improvements to the updated Open Kattis design.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "http://plato.stanford.edu/*",
+        "https://plato.stanford.edu/*"
+      ],
+      "content_scripts": [
+        {
+          "matches": [
+            "http://open.kattis.com/problems/*",
+            "https://open.kattis.com/problems/*"
+          ],
+          "run_at": "document_idle",
+          "css": ["src/inject/inject.css"],
+          "js": ["src/inject/jquery.js", "src/inject/inject.js"]
+        }
+      ]
+  }
