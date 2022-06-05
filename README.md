@@ -1,5 +1,5 @@
 # Better Open Kattis
-On June 4th 2022, the Kattis team released an update to the Open Kattis user interface and design. It looks okay, but there are some problems.
+In June 2022, the [Open Kattis](https://open.kattis.com) team released an update to the Open Kattis user interface and design. It looks okay, but there are some problems.
 
 ### The Problem Page
 On problem pages, you can no longer view instructions at full-width, and are instead limited to half-width with the other side of the screen containing the submission pane.
