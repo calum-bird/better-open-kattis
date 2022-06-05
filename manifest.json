@@ -12,16 +12,16 @@
     "permissions": [
         "http://open.kattis.com/problems/*",
         "https://open.kattis.com/problems/*"
-      ],
-      "content_scripts": [
+    ],
+    "content_scripts": [
         {
-          "matches": [
-            "http://open.kattis.com/problems/*",
-            "https://open.kattis.com/problems/*"
-          ],
-          "run_at": "document_idle",
-          "css": ["src/inject/inject.css"],
-          "js": ["src/inject/jquery.js", "src/inject/inject.js"]
+            "matches": [
+                "http://open.kattis.com/problems/*",
+                "https://open.kattis.com/problems/*"
+            ],
+            "run_at": "document_idle",
+            "css": ["src/inject/inject.css"],
+            "js": ["src/inject/jquery.js", "src/inject/inject.js"]
         }
-      ]
+    ]
   }
